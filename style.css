@@ -1,0 +1,178 @@
+:root {
+    --color-background-dark: #121212;
+    --color-background-light: #2a2a2a;
+    --color-background-medium: "#181818";
+    --color-accent: rgba(255, 191, 0, 0.75);
+    --color-text: rgba(255, 255, 255, 0.87);
+    --color-text-medium: rgba(208, 208, 208, 0.6);
+    --color-text-low: rgba(208, 208, 208, 0.38);
+
+    --d2l-branding-primary-color: var(--color-accent) !important;
+    --d2l-icon-fill-color: var(--color-text) !important; /* Icons color */
+    --d2l-icon-height: 20px !important; /* Icons size */
+    --d2l-color-celestine: rgba(239, 219, 190, 0.5) !important;
+    --d2l-input-border-radius: 0px !important;
+    --d2l-input-background-color: var(--color-background-light) !important;
+    --d2l-input-border-color: var(--color-text) !important;
+    --d2l-color-ferrite: var(--color-text) !important;
+}
+
+body {
+    background-color: var(--color-background-dark) !important;
+}
+
+h1, a {
+    color: var(--color-text) !important;
+}
+
+/* Header */
+
+d2l-navigation-main-header {
+    background-color: var(--color-background-dark) !important;
+}
+
+d2l-navigation-main-footer {
+    background-color: var(--color-background-dark) !important;
+    border: none !important;
+}
+
+.d2l-navigation-s-personal-menu-text {
+    display: none !important;
+}
+
+d2l-navigation-separator {
+    visibility: hidden !important;
+    width: 30px !important;
+    margin: 0 !important;
+}
+
+.custom_link{
+    color: var(--color-accent) !important;
+    font-size: 15px;
+}
+
+/* Dropdown */
+
+d2l-dropdown-content {
+    --d2l-dropdown-background-color: var(--color-background-dark) !important;
+    --d2l-dropdown-border-color: var(--color-background-light) !important;
+}
+
+d2l-menu-item-link {
+    background-color: transparent;
+    color: var(--color-text);
+    border: none;
+}
+
+
+/* Remove banner */
+
+#CourseImageBannerPlaceholderId {
+    display: none !important;
+}
+
+/* Tiles */
+
+.d2l-tile {
+    background-color: var(--color-background-dark) !important;
+    color: var(--color-text) !important;
+}
+
+/* Footer */
+
+footer {
+    display: none !important;
+}
+
+/* Agenda */
+
+.d2l-collapsepane .d2l-collapsepane-header {
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+.d2l-homepage-header-wrapper .d2l-heading {
+    color: var(--color-accent) !important;
+}
+
+/* Teams */
+
+.view-team-message {
+    display: none !important;
+}
+
+.teams-logo-medium {
+    display: none !important;
+}
+
+#teams h6 {
+    display: none !important;
+}
+
+#teams li {
+    padding: 0 !important;
+    border-bottom-color: var(--color-background-light) !important;
+    border: none !important;
+}
+
+#teams a {
+    color: var(--color-text) !important;
+    border: none !important;
+}
+
+.panel-section, .panel-section .card {
+    background-color: var(--color-background-dark) !important;
+}
+
+/* Notifications */
+.vui-emphasis {
+    color: var(--color-text-medium) !important;
+}
+
+.d2l-fuzzydate {
+    color: var(--color-text-medium) !important;
+}
+
+.vui-list > li {
+    border-top: 1px solid var(--color-background-light) !important;
+}
+
+.vui-list > li:first-child {
+    border-top-color: transparent !important;
+}
+
+.vui-list > .vui-active {
+    background-color: var(--color-background-dark) !important;
+}
+
+.vui-list>.vui-selected {
+    background-color: var(--color-background-medium) !important;
+    border-top-color: var(--color-background-light) !important;
+}
+
+.vui-list>.vui-selected a {
+    color: var(--color-accent) !important;
+}
+
+.d2l-loadmore-pager{
+    margin: 0 !important;
+    border: 1px solid var(--color-background-light) !important;
+    background-color: var(--color-background-dark) !important;
+    color: var(--color-text) !important;
+}
+
+.d2l-loadmore-pager a{
+    color: var(--color-text) !important;
+}
+
+/* Search */
+
+.d2l-courseselector-wrapper > div{
+    border-bottom: none !important;
+}
+
+.d2l-courseselector-wrapper > div:first-of-type > div:last-of-type{
+    display: none; !important;
+}
+
